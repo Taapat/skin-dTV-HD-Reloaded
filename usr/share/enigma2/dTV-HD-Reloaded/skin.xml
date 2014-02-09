@@ -3145,4 +3145,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_red" render="Label" position=" 55,248" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="325,248" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
+	<screen name="TV3PlayMenu" position="center,center" size="700,450" title="SoftCam manager">
+		<eLabel position="0,0" size="700,2" backgroundColor="grey" />
+		<eLabel position="0,0" size="2,394" backgroundColor="grey" />
+		<eLabel position="698,0" size="2,394" backgroundColor="grey" />
+		<eLabel position="0,394" size="700,2" backgroundColor="grey" />
+		<eLabel position="390,0" size="2,394" backgroundColor="grey" />
+		<widget source="list" render="Listbox" position="20,19" size="350,360" zPosition="10" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_60.png">
+			<convert type="TemplatedMultiContent">
+			{
+				"template": [MultiContentEntryText(pos=(10, 1), size=(340, 30), \
+					font=0, flags=RT_HALIGN_LEFT, text=0)],
+				"fonts": [gFont("Regular", 20)],
+				"itemHeight": 30
+			}
+			</convert>
+		</widget>
+		<widget name="pic" position="410,15" size="270,152" alphatest="on" />
+		<widget name="cur" position="410,170" size="270,309" halign="center" font="Regular;22" />
+		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="100,411" zPosition="1" size="250,38" />
+		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="380,411" zPosition="1" size="250,38" />
+		<widget source="key_red" render="Label" position="100,410" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
+		<widget source="key_green" render="Label" position="380,410" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
+	</screen>
 </skin>
