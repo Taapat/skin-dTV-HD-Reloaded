@@ -3125,7 +3125,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 			</convert>
 		</widget>
 		<eLabel halign="center" position="440,15" size="210,35" font="Regular;20" text="Ecm info" transparent="1" />
-		<widget name="status" position="410,65" size="270,260" font="Regular;16" halign="left" noWrap="1" />
+		<widget name="status" position="410,65" size="270,260" font="Regular;16" halign="left" />
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="100,362" zPosition="1" size="250,38" />
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="380,362" zPosition="1" size="250,38" />
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="100,411" zPosition="1" size="250,38" />
