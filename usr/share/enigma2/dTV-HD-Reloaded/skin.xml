@@ -133,8 +133,7 @@
 		</widget>
 		<ePixmap pixmap="dTV-HD-Reloaded/ico_hd_off.png" position="935,11" size="29,20" zPosition="1" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="dTV-HD-Reloaded/ico_hd_on.png" position="935,11" size="29,20" zPosition="2" alphatest="blend">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">721,1980</convert>
+			<convert type="ServiceInfo">IsHD</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="dTV-HD-Reloaded/ico_crypt_off.png" position="984,11" size="26,20" zPosition="1" alphatest="blend" />
