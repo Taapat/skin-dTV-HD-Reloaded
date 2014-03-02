@@ -96,7 +96,7 @@
 		<color name="WindowTitleForeground" color="white" />
 		<color name="WindowTitleBackground" color="black" />
 	</windowstyle>
-	<screen name="InfoBar" position="69,526" size="1142,158" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="InfoBar" position="69,526" size="1142,158" title="Info bar" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/infobar.png" position="1,1" size="1140,156" zPosition="-5" alphatest="blend" />
 		<widget source="session.CurrentService" render="Label" position="20,6" size="600,28" font="Regular;24" backgroundColor="black" transparent="1">
 			<convert type="ServiceName">Name</convert>
@@ -431,7 +431,7 @@
 		</widget>
 		<ePixmap pixmap="dTV-HD-Reloaded/icons/power.png" position="115,250" size="110,110" />
 	</screen>
-	<screen name="UpdatePluginMenu" position="center,74" size="742,572" title="Softwaremanager..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="UpdatePluginMenu" position="center,74" size="742,572" title="Software management" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position="320,101" size="  2,400" backgroundColor="grey" zPosition="5" />
@@ -483,7 +483,7 @@
 		<widget source="hddA" render="Label" position="31,475" size="470,50" font="Regular;22" halign="center" />
 		<ePixmap position="500,435" size="200,110" pixmap="dTV-HD-Reloaded/icons/kerni.png" />
 	</screen>
-	<screen name="AdapterSetup" position="center,90" size="1100,570" title="Network Setup">
+	<screen name="AdapterSetup" position="center,90" size="1100,570" title="Network setup">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -513,7 +513,7 @@
 		<widget name="HelpWindow" position="180,380" size="1,1" zPosition="1" transparent="1" />
 		<ePixmap position="970,400" size="110,110" zPosition="2" pixmap="dTV-HD-Reloaded/icons/net.png" />
 	</screen>
-	<screen name="AdapterSetupConfiguration" position="center,90" size="1100,570" title="Network Configuration...">
+	<screen name="AdapterSetupConfiguration" position="center,90" size="1100,570" title="Network configuration...">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -530,7 +530,7 @@
 		<widget source="key_red" render="Label" position="820,531" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<ePixmap position="970,400" size="110,110" zPosition="2" pixmap="dTV-HD-Reloaded/icons/net.png" />
 	</screen>
-	<screen name="BouquetSelector" position="center,150" size="600,340" title="Choose bouquet">
+	<screen name="BouquetSelector" position="center,150" size="600,340" title="Select a bouquet">
 		<eLabel position="0,0" size="600,2" backgroundColor="grey" />
 		<widget name="menu" position="10,20" size="580,300" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_30.png" />
 	</screen>
@@ -538,7 +538,7 @@
 		<eLabel position="0,0" size="600,2" backgroundColor="grey" />
 		<widget name="menu" position="10,20" size="580,300" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_30.png" />
 	</screen>
-	<screen name="ChannelSelection" position="center,90" size="1120,570" title="Channel Selection">
+	<screen name="ChannelSelection" position="center,90" size="1120,570" title="Channel selection">
 		<eLabel position="0,0" size="1120,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="780,0" size="2,518" backgroundColor="grey" />
@@ -589,7 +589,7 @@
 			<convert type="ServiceName2">Satellite</convert>
 		</widget>
 	</screen>
-	<screen name="ChannelSelectionRadio" position="center,90" size="1076,370" title="Channel Selection">
+	<screen name="ChannelSelectionRadio" position="center,90" size="1076,370" title="Channel selection">
 		<eLabel position="0,0" size="1076,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,318" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,318" backgroundColor="grey" />
@@ -649,7 +649,7 @@
 		<widget source="key_red" render="Label" position="209,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="479,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="CIselectMainMenu" position="center,74" size="742,572" title="CI Assignment" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="CIselectMainMenu" position="center,74" size="742,572" title="CI assignment" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<widget source="Title" render="Label" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -663,7 +663,7 @@
 		<widget source="key_red" render="Label" position="109,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="379,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="CIconfigMenu" position="center,90" size="1100,570" title="CI Assignment">
+	<screen name="CIconfigMenu" position="center,90" size="1100,570" title="CI assignment">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<widget source="CAidList_desc" render="Label" position="20,10" size="1060,30" font="Regular;24" />
 		<eLabel position="10,50" size="1080,2" backgroundColor="grey" />
@@ -683,7 +683,7 @@
 		<widget source="key_yellow" render="Label" position="560,531" zPosition="2" size="250,38" font="Regular;23" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget source="key_blue" render="Label" position="830,531" zPosition="2" size="250,38" font="Regular;23" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="easyCIconfigMenu" position="center,90" size="1100,570" title="CI Assignment">
+	<screen name="easyCIconfigMenu" position="center,90" size="1100,570" title="CI assignment">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<widget source="ServiceList_desc" render="Label" position="10,10" size="1080,30" font="Regular;24" />
 		<eLabel position="0,50" size="1100,2" backgroundColor="grey" />
@@ -745,7 +745,7 @@
 		<eLabel position=" 21,549" size="700,  2" backgroundColor="grey" zPosition="5" />
 		<widget name="text" position="26,106" size="690,440" font="Console;21" />
 	</screen>
-	<screen name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor" flags="wfNoBorder">
+	<screen name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor..." flags="wfNoBorder">
 		<eLabel text="Cutlist editor" position="100,70" size="300,25" font="Regular;22" />
 		<widget source="global.CurrentTime" render="Label" position="700,70" size="477,25" font="Regular;22" halign="right">
 			<convert type="ClockToText">Format:%A %B %d, %H:%M</convert>
@@ -776,7 +776,7 @@
 		<widget name="Timeline" position="479,587" size="696,20" zPosition="3" backgroundColor="un808888" pointer="skin_default/position_arrow.png:3,5" foregroundColor="black" />
 		<eLabel text="OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="Dish" position="900,100" size="130,160" backgroundColor="transparent" title="Dish" zPosition="-1" flags="wfNoBorder">
+	<screen name="Dish" position="900,100" size="130,160" backgroundColor="transparent" title="Satellite dish setup" zPosition="-1" flags="wfNoBorder">
 		<widget name="Dishpixmap" pixmap="skin_default/icons/dish.png" position="0,0" size="130,160" alphatest="off" />
 		<widget name="turnTime" position="5,0" size="120,20" zPosition="1" font="Regular; 20" halign="right" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
 		<widget name="From" position="5,164" size="50,17" zPosition="1" font="Regular;17" halign="left" shadowColor="black" shadowOffset="-2,-1" transparent="1" />
@@ -784,7 +784,7 @@
 		<widget name="Goto" position="5,184" size="50,17" zPosition="1" font="Regular;17" halign="left" shadowColor="black" shadowOffset="-2,-1" transparent="1" />
 		<widget name="posGoto" position="57,180" size="70,20" zPosition="1" font="Regular;20" halign="left" shadowColor="black" shadowOffset="-2,-2" transparent="1" />
 	</screen>
-	<screen name="EPGSelection" position="center,90" size="1100,570" zPosition="10" title="EPG Selection">
+	<screen name="EPGSelection" position="center,90" size="1100,570" zPosition="10" title="EPG selection">
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
@@ -811,7 +811,7 @@
 			<convert type="ServiceName">Name</convert>
 		</widget>
 	</screen>
-	<screen name="EPGSelectionMulti" position="center,90" size="1100,570" title="EPG Selection Multi">
+	<screen name="EPGSelectionMulti" position="center,90" size="1100,570" title="Multi-EPG bouquet selection">
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
 		<widget name="now_button_sel" pixmap="dTV-HD-Reloaded/epg_now.png" position="0,0" zPosition="3" size="1100,35" alphatest="on" />
@@ -832,7 +832,7 @@
 		<widget name="key_yellow" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget name="key_blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="EventView" position="center,90" size="1100,570" title="Eventview">
+	<screen name="EventView" position="center,90" size="1100,570" title="Event view">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1147,7 +1147,7 @@
 		<widget name="key_blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 		<widget name="DescriptionBorder" position="0,0" size="0,0" />
 	</screen>
-	<screen name="NameserverSetup" position="center,90" size="1100,570" title="Nameserver Setup">
+	<screen name="NameserverSetup" position="center,90" size="1100,570" title="Nameserver setup">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1164,7 +1164,7 @@
 		<widget source="key_yellow" render="Label" position="820,531" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<ePixmap position="970,400" size="110,110" zPosition="2" pixmap="dTV-HD-Reloaded/icons/net.png" transparent="1" alphatest="blend" />
 	</screen>
-	<screen name="NetworkAdapterSelection" position="center,90" size="1100,570" title="Select Network Adapter">
+	<screen name="NetworkAdapterSelection" position="center,90" size="1100,570" title="Select a network adapter">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1247,7 +1247,7 @@
 		<widget source="key_yellow" render="Label" position="820,531" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget name="InfoTextBorder" position="0,0" size="0,0" />
 	</screen>
-	<screen name="NimSelection" position="center,74" size="742,572" title="Choose Tuner" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="NimSelection" position="center,74" size="742,572" title="Select a tuner" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="Choose Tuner" position="21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1267,7 +1267,7 @@
 			</convert>
 		</widget>
 	</screen>
-	<screen name="NimSetup" position="center,74" size="742,572" title="Reception Settings" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="NimSetup" position="center,74" size="742,572" title="Reception settings" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="Reception Settings" position="21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1307,7 +1307,7 @@
 		<eLabel text="Change pin code" position="71,66" size="600,32" font="Regular;25" halign="center" />
 		<widget name="config" position="26,108" size="690,435" itemHeight="29" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 	</screen>
-	<screen name="ParentalControlEditor" position="center,74" size="742,572" title="Parental control services Editor" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="ParentalControlEditor" position="center,74" size="742,572" title="Parental control services editor" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,438" backgroundColor="grey" zPosition="5" />
@@ -1352,7 +1352,7 @@
 		<widget name="text" position="40,130" size="660,50" font="Regular;23" />
 		<widget name="list" position="21,101" size="700,450" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select800_50.png" />
 	</screen>
-	<screen name="PositionerSetup" position="center,125" size="800,492" title="Positioner setup...">
+	<screen name="PositionerSetup" position="center,125" size="800,492" title="Positioner setup">
 		<eLabel position="0,0" size="800,2" backgroundColor="grey" />
 		<widget name="list" position="200,10" size="400,155" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 		<widget name="red" position="0, 180" size="200,100" backgroundColor="red" halign="center" valign="center" font="Regular;21" />
@@ -1375,7 +1375,7 @@
 		<eLabel text="FEC:" position="470,420" size="150,24" font="Regular;21" transparent="1" />
 		<widget name="fec_value" position="630,420" size="150,24" font="Regular;21" transparent="1" />
 	</screen>
-	<screen name="RadioInfoBar" position="center,490" size="1122,192" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="RadioInfoBar" position="center,490" size="1122,192" title="Info bar" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/infobar_radio.png" position="1,1" size="1120,190" zPosition="-5" alphatest="blend" />
 		<widget source="session.CurrentService" render="Label" position="15,6" size="600,26" font="Regular;24" backgroundColor="black" transparent="1">
 			<convert type="ServiceName">Name</convert>
@@ -1452,7 +1452,7 @@
 		<widget name="RtpText" position="100,650" size="1080,30" font="Regular;24" halign="right" noWrap="1" backgroundColor="black" />
 		<widget name="RassLogo" position="0,0" size="0,0" />
 	</screen>
-	<screen name="RecordPathsSettings" position="center,74" size="742,572" title="Recording paths..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="RecordPathsSettings" position="center,74" size="742,572" title="Recording paths" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="Recording paths" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1537,7 +1537,7 @@
 		<widget name="config" position="31,145" size="680,360" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 		<widget name="footer" position="21,521" size="700,25" font="Regular;22" halign="center" />
 	</screen>
-	<screen name="ServiceInfo" position="center,90" size="1100,570" title="Serviceinfo">
+	<screen name="ServiceInfo" position="center,90" size="1100,570" title="Service info">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1552,7 +1552,7 @@
 		<widget name="yellow" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget name="blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="ServiceScan" position="center,74" size="742,572" title="Service Scan" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="ServiceScan" position="center,74" size="742,572" title="Service scan" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="Service Scan" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1596,7 +1596,7 @@
 		<widget source="key_red" render="Label" position="109,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="379,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="SimpleChannelSelection" position="center,90" size="1100,570" title="Channel Selection">
+	<screen name="SimpleChannelSelection" position="center,90" size="1100,570" title="Channel selection">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1611,7 +1611,7 @@
 		<widget name="key_yellow" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget name="key_blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="SkinSelector" position="center,74" size="742,572" title="Skin Selector" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="SkinSelector" position="center,74" size="742,572" title="Select a skin" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<widget source="Title" render="Label" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1627,7 +1627,7 @@
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="245,517" zPosition="1" size="250,38" />
 		<widget source="key_red" render="Label" position="245,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="SleepTimerEdit" position="center,74" size="742,572" title="Sleep Timer" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="SleepTimerEdit" position="center,74" size="742,572" title="Sleep timer" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="Sleep Timer" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1671,7 +1671,7 @@
 		<widget name="config" position="31,108" size="680,435" itemHeight="29" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 	</screen>
 	<screen name="SubtitleDisplay" position="0,0" size="1280,720" zPosition="-1" backgroundColor="transparent2" flags="wfNoBorder" />
-	<screen name="TimerEditList" position="center,90" size="1100,570" title="Timer Editor">
+	<screen name="TimerEditList" position="center,90" size="1100,570" title="Timer editor">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1743,7 +1743,7 @@
 	<screen name="UnhandledKey" position="70,70" size="60,60" backgroundColor="transparent2" flags="wfNoBorder">
 		<widget name="UnhandledKeyPixmap" position="0,0" size="60,60" pixmap="dTV-HD-Reloaded/skin_default/nk.png" />
 	</screen>
-	<screen name="VideoEnhancementSetup" position="center,90" size="1100,570" title="VideoEnhancementSetup">
+	<screen name="VideoEnhancementSetup" position="center,90" size="1100,570" title="Video enhancement setup">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1760,7 +1760,7 @@
 		<widget source="key_yellow" render="Label" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget source="key_blue" render="Label" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="VideoEnhancementPreview" position="90,90" size="700,190" title="VideoEnhancementPreview">
+	<screen name="VideoEnhancementPreview" position="90,90" size="700,190" title="Video enhancement preview">
 		<eLabel position="0,0" size="700,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,140" backgroundColor="grey" />
 		<eLabel position="698,0" size="2,140" backgroundColor="grey" />
@@ -1776,7 +1776,7 @@
 	<screen name="VideoFinetune" position="0,0" size="1280,720" backgroundColor="black">
 		<widget source="Canvas" render="Canvas" position="280,70" size="720,576" />
 	</screen>
-	<screen name="VirtualKeyBoard" position="center,74" size="942,572" zPosition="99" title="VirtualKeyBoard" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="VirtualKeyBoard" position="center,74" size="942,572" zPosition="99" title="Virtual keyboard" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback2.png" position="1,1" size="940,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="231,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="VirtualKeyBoard" position=" 21,66" size="900,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1790,7 +1790,7 @@
 		<eLabel position="21,210" size="900,  2" backgroundColor="grey" zPosition="5" />
 		<widget name="list" position="33,260" size="876,225" selectionDisabled="1" transparent="1" />
 	</screen>
-	<screen name="WlanStatus" position="center,90" size="1100,570" title="Wireless Network State">
+	<screen name="WlanStatus" position="center,90" size="1100,570" title="Wireless network state">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -1817,7 +1817,7 @@
 		<widget source="key_red" render="Label" position="450,530" size="120,27" zPosition="10" font="Regular;24" transparent="1" />
 		<ePixmap position="940,400" size="140,110" zPosition="2" pixmap="dTV-HD-Reloaded/icons/wlan.png" transparent="1" alphatest="blend" />
 	</screen>
-	<screen name="WlanScan" position="center,90" size="1100,570" title="Choose a Wireless Network">
+	<screen name="WlanScan" position="center,90" size="1100,570" title="Select a wireless network">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -2141,7 +2141,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_red" render="Label" position="140,463" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" transparent="1" foregroundColor="red" />
 		<widget source="key_green" render="Label" position="410,463" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" transparent="1" foregroundColor="green" />
 	</screen>
-	<screen name="RestoreMenu" position="center,125" size="800,502" title="Restore Backups">
+	<screen name="RestoreMenu" position="center,125" size="800,502" title="Restore backups">
 		<eLabel position="0,0" size="800,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position="0,450" size="800,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position="0,0" size="2,450" backgroundColor="grey" zPosition="5" />
@@ -2155,7 +2155,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_green" render="Label" position="275,463" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" transparent="1" foregroundColor="green" />
 		<widget source="key_yellow" render="Label" position="535,463" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" transparent="1" foregroundColor="yellow" />
 	</screen>
-	<screen name="UpdatePlugin" position="center,74" size="742,572" title="Software Update..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="UpdatePlugin" position="center,74" size="742,572" title="Software update" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,450" backgroundColor="grey" zPosition="5" />
@@ -2168,7 +2168,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="status" render="Label" position="90,200" size="560,50" font="Regular;20" backgroundColor="black" transparent="1" />
 		<widget name="slider" position="80,290" size="580,20" borderWidth="1" transparent="1" />
 	</screen>
-	<screen name="Ipkg" position="center,74" size="742,572" title="Installing Software..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="Ipkg" position="center,74" size="742,572" title="Installing software..." backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,450" backgroundColor="grey" zPosition="5" />
@@ -2181,7 +2181,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="status" position="90,200" size="560,50" font="Regular;20" backgroundColor="black" />
 		<widget name="slider" position="80,290" size="580,20" borderWidth="1" transparent="1" />
 	</screen>
-	<screen name="BackupScreen" position="center,74" size="742,572" title="Backup running..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="BackupScreen" position="center,74" size="742,572" title="Backup is running..." backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,450" backgroundColor="grey" zPosition="5" />
@@ -2191,7 +2191,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="Title" render="Label" position="71,66" size="600,32" font="Regular;25" halign="center" />
 		<widget name="config" position="26,111" size="580,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 	</screen>
-	<screen name="RestoreScreen" position="center,74" size="742,572" title="Restore running..." backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="RestoreScreen" position="center,74" size="742,572" title="Restore is running..." backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,450" backgroundColor="grey" zPosition="5" />
@@ -2201,7 +2201,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="Title" render="Label" position="71,66" size="600,32" font="Regular;25" halign="center" />
 		<widget name="config" position="26,111" size="580,420" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
 	</screen>
-	<screen name="PluginManager" position="center,90" size="1100,570" title="Plugin manager">
+	<screen name="PluginManager" position="center,90" size="1100,570" title="Extensions management">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="800,0" size="2,518" backgroundColor="grey" />
@@ -2322,7 +2322,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="key_blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
 	<!-- Media Player -->
-	<screen name="MediaPlayer" position="0,0" size="1280,720" title="MediaPlayer" flags="wfNoBorder">
+	<screen name="MediaPlayer" position="0,0" size="1280,720" title="Media player" flags="wfNoBorder">
 		<eLabel text="M e d i a P l a y e r" position=" 50,35" size="300,35" font="Regular;32" />
 		<widget source="global.CurrentTime" render="Label" position=" 30,87" size="80,25" font="Regular;24" valign="top" halign="right">
 			<convert type="ClockToText">Default</convert>
@@ -2377,7 +2377,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_green" render="Label" position="379,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
 	<!-- Picture Player -->
-	<screen name="picshow" position="center,90" size="1100,570" title="PicturePlayer">
+	<screen name="picshow" position="center,90" size="1100,570" title="Picture player">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -2487,7 +2487,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="key_blue" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
 	<!-- DVD Burn -->
-	<screen name="FileBrowser" position="center,74" size="742,572" title="DVD File Browser" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="FileBrowser" position="center,74" size="742,572" title="DVD file browser" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<widget source="Title" render="Label" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -2569,7 +2569,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget name="key_green" position="290,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 		<widget name="key_yellow" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="TitleList" position="center,90" size="1100,570" title="DVD Tool">
+	<screen name="TitleList" position="center,90" size="1100,570" title="DVD titlelist">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
 		<eLabel position="1098,0" size="2,518" backgroundColor="grey" />
@@ -2605,7 +2605,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_yellow" render="Label" position="560,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="yellow" backgroundColor="black" transparent="1" />
 		<widget source="key_blue" render="Label" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="TitleCutter" position="0,0" size="1280,720" title="Cutlist editor" flags="wfNoBorder">
+	<screen name="TitleCutter" position="0,0" size="1280,720" title="Cutlist editor..." flags="wfNoBorder">
 		<eLabel position="80,125" size="300,420" zPosition="1" backgroundColor="grey" />
 		<eLabel position="81,126" size="298,418" zPosition="2" backgroundColor="black" />
 		<widget source="cutlist" position="90,135" size="280,400" zPosition="3" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" render="Listbox">
@@ -2648,7 +2648,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_blue" render="Label" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
 	<!-- DVD Player -->
-	<screen name="DVDPlayer" position="center,566" size="1142,132" backgroundColor="transparent2" title="InfoBar" flags="wfNoBorder">
+	<screen name="DVDPlayer" position="center,566" size="1142,132" backgroundColor="transparent2" title="Info bar" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/infobar_movie.png" position="1,1" size="1140,130" zPosition="-5" alphatest="blend" />
 		<widget source="global.CurrentTime" render="Label" position="1012,7" size="80,25" font="Regular;24" valign="top" halign="right" backgroundColor="un333333" transparent="1">
 			<convert type="ClockToText">Default</convert>
@@ -2705,7 +2705,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_blue" render="Label" position="830,531" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1" />
 	</screen>
 	<!-- MyTubePlayer -->
-	<screen name="MyTubePlayer" position="center,566" size="1142,132" backgroundColor="transparent2" title="InfoBar" flags="wfNoBorder">
+	<screen name="MyTubePlayer" position="center,566" size="1142,132" backgroundColor="transparent2" title="Info bar" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/infobar_movie.png" position="1,1" size="1140,156" zPosition="-5" alphatest="blend" />
 		<ePixmap position="1010,76" size="100,40" zPosition="4" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MyTube/plugin.png" alphatest="on" transparent="1" />
 		<widget source="global.CurrentTime" render="Label" position="1012,7" size="80,25" font="Regular;24" valign="top" halign="right" backgroundColor="un333333" transparent="1">
@@ -3144,7 +3144,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
 		<widget source="key_red" render="Label" position=" 55,248" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
 		<widget source="key_green" render="Label" position="325,248" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
 	</screen>
-	<screen name="TV3PlayMenu" position="center,center" size="700,450" title="SoftCam manager">
+	<screen name="TV3PlayMenu" position="center,center" size="700,450" title="TV3 Play">
 		<eLabel position="0,0" size="700,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,394" backgroundColor="grey" />
 		<eLabel position="698,0" size="2,394" backgroundColor="grey" />
