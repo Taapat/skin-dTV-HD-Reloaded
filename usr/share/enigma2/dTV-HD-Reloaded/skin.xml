@@ -463,25 +463,29 @@
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="246,517" zPosition="1" size="250,38" />
 		<widget source="key_red" render="Label" position="246,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="darkgrey" transparent="1" />
 	</screen>
-	<screen name="About" position="center,74" size="742,572" title="About" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="About" position="center,center" size="742,572" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<eLabel text="About" position="21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
 		<eLabel position=" 21, 99" size="700,  2" backgroundColor="grey" zPosition="5" />
+		<eLabel position=" 21,101" size="  2,400" backgroundColor="grey" zPosition="5" />
+		<eLabel position="719,101" size="  2,400" backgroundColor="grey" zPosition="5" />
+		<eLabel position=" 21,499" size="700,  2" backgroundColor="grey" zPosition="5" />
+		<widget name="AboutScrollLabel" font="Regular;22" position="40,110" size="670,380" zPosition="2" halign="center" />
+		<ePixmap position="110,517" size="250,38" zPosition="1" pixmap="dTV-HD-Reloaded/button.png" />
+		<widget name="key_red" position="110,516" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
+		<ePixmap position="420,517" size="250,38" zPosition="1" pixmap="dTV-HD-Reloaded/button.png" />
+		<widget name="key_green" position="420,516" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1" />
+	</screen>
+	<screen name="CommitInfo" position="center,center" size="742,572" backgroundColor="transparent2" flags="wfNoBorder">
+		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
+		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
+		<eLabel text="Latest Commits" position="21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
+		<eLabel position=" 21, 99" size="700,  2" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,101" size="  2,450" backgroundColor="grey" zPosition="5" />
 		<eLabel position="719,101" size="  2,450" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,549" size="700,  2" backgroundColor="grey" zPosition="5" />
-		<widget source="EnigmaVersion" render="Label" position="31,120" size="470,25" font="Regular;22" halign="center" />
-		<widget source="ImageVersion" render="Label" position="31,160" size="470,25" font="Regular;22" halign="center" />
-		<widget source="FPVersion" render="Label" position="31,190" size="470,25" font="Regular;22" halign="center" />
-		<widget source="TunerHeader" render="Label" position="31,240" size="470,25" font="Regular;24" halign="center" />
-		<widget source="Tuner0" render="Label" position="31,280" size="470,25" font="Regular;22" halign="center" />
-		<widget source="Tuner1" render="Label" position="31,315" size="470,25" font="Regular;22" halign="center" />
-		<widget source="Tuner2" render="Label" position="31,350" size="470,25" font="Regular;22" halign="center" />
-		<widget source="Tuner3" render="Label" position="31,385" size="470,25" font="Regular;22" halign="center" />
-		<widget source="HDDHeader" render="Label" position="31,435" size="470,25" font="Regular;24" halign="center" />
-		<widget source="hddA" render="Label" position="31,475" size="470,50" font="Regular;22" halign="center" />
-		<ePixmap position="500,435" size="200,110" pixmap="dTV-HD-Reloaded/icons/kerni.png" />
+		<widget name="AboutScrollLabel" font="Regular;22" position="40,110" size="670,430" zPosition="2" halign="center" />
 	</screen>
 	<screen name="AdapterSetup" position="center,90" size="1100,570" title="Network setup">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
