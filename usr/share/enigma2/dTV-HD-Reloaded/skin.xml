@@ -1281,10 +1281,11 @@
 		<eLabel position=" 21,549" size="700,  2" backgroundColor="grey" zPosition="5" />
 		<widget name="config" position="31,115" size="680,420" enableWrapAround="1" itemHeight="30" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
-	<screen name="NumberZap" position="center,355" size="400,60" title="Channel">
+	<screen name="NumberZap" position="center,355" size="400,90" title="Channel">
 		<eLabel position="0,0" size="400,2" backgroundColor="grey" zPosition="5" />
-		<widget name="channel" position="30,15" size="130,28" font="Regular;25" />
-		<widget name="number" position="190,15" size="80,28" halign="right" font="Regular;25" />
+		<widget source="channel" render="Label" position="30,15" size="130,28" halign="left" font="Regular;25" />
+		<widget source="number" render="Label" position="190,15" size="80,28" halign="left" font="Regular;25" />
+		<widget source="servicename" render="Label" position="30,60" size="360,28" halign="left" font="Regular;25" />
 	</screen>
 	<screen name="NumericalTextInputHelpDialog" position="center,470" zPosition="10" size="602,122" flags="wfNoBorder">
 		<eLabel position="0,0" size="602,162" backgroundColor="unc0c0c0" zPosition="-1" />
