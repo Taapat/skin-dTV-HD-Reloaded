@@ -881,30 +881,6 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="820,300" size="100,21" foregroundColor="grey" text="Server:" halign="right" font="Regular; 18" zPosition="2" />
-		<widget source="session.CurrentService" render="Label" position="925,300" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%S</convert>
-		</widget>
-		<eLabel position="819,330" size="100,21" zPosition="2" text="ECM time:" font="Regular; 18" foregroundColor="grey" halign="right" />
-		<widget source="session.CurrentService" render="Label" position="925,360" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%PR</convert>
-		</widget>
-		<eLabel position="820,360" size="100,21" font="Regular; 18" foregroundColor="grey" text="Protocol:" halign="right" zPosition="2" />
-		<widget source="session.CurrentService" render="Label" position="925,330" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%T</convert>
-		</widget>
-		<eLabel position="820,390" size="100,21" foregroundColor="grey" font="Regular; 18" zPosition="2" halign="right" text="Caid:" />
-		<widget source="session.CurrentService" render="Label" position="925,390" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%C</convert>
-		</widget>
-		<eLabel position="820,420" size="100,21" foregroundColor="grey" font="Regular; 18" zPosition="2" halign="right" text="Ident:" />
-		<widget source="session.CurrentService" render="Label" position="925,420" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%p</convert>
-		</widget>
-		<eLabel position="820,450" size="100,21" foregroundColor="grey" font="Regular; 18" zPosition="2" halign="right" text="Pid:" />
-		<widget source="session.CurrentService" render="Label" position="925,450" size="150,21" font="Regular; 18" foregroundColor="grey" zPosition="2">
-			<convert type="CaidInfo2">%P</convert>
-		</widget>
 	</screen>
 	<screen name="genuineDreambox" position="center,74" size="742,572" title="Genuine Dreambox" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
