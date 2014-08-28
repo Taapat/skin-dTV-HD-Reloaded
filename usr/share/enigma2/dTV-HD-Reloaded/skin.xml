@@ -749,8 +749,8 @@
 		<eLabel position=" 21,549" size="700,  2" backgroundColor="grey" zPosition="5" />
 		<widget name="text" position="26,106" size="690,440" font="Console;21" />
 	</screen>
-	<screen name="CutListEditor" position="0,0" size="1280,720" title="Cutlist editor..." flags="wfNoBorder">
-		<eLabel text="Cutlist editor" position="100,70" size="300,25" font="Regular;22" />
+	<screen name="CutListEditor" position="center,680" size="700,24" title="Cutlist editor..." flags="wfNoBorder">
+		<!--eLabel text="Cutlist editor" position="100,70" size="300,25" font="Regular;22" />
 		<widget source="global.CurrentTime" render="Label" position="700,70" size="477,25" font="Regular;22" halign="right">
 			<convert type="ClockToText">Format:%A %B %d, %H:%M</convert>
 		</widget>
@@ -776,9 +776,9 @@
 		<widget source="session.CurrentService" render="Label" position="450,550" size="790,25" zPosition="3" font="Regular;20" halign="center" valign="center" backgroundColor="black" transparent="1">
 			<convert type="ServicePosition">Position,Detailed</convert>
 		</widget>
-		<ePixmap pixmap="dTV-HD-Reloaded/mp_buttons.png" position="100,582" size="260,32" zPosition="1" alphatest="on" />
-		<widget name="Timeline" position="479,587" size="696,20" zPosition="3" backgroundColor="un808888" pointer="skin_default/position_arrow.png:3,5" foregroundColor="black" />
-		<eLabel text="OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" />
+		<ePixmap pixmap="dTV-HD-Reloaded/mp_buttons.png" position="100,582" size="260,32" zPosition="1" alphatest="on" /-->
+		<widget name="Timeline" position="2,2" size="696,20" zPosition="3" backgroundColor="un808888" pointer="skin_default/position_arrow.png:3,5" foregroundColor="black" />
+		<!--eLabel text="OK = Menu" position="1060,630" size="140,22" zPosition="1" font="Regular;20" backgroundColor="black" transparent="1" /-->
 	</screen>
 	<screen name="Dish" position="900,100" size="130,160" backgroundColor="transparent" title="Satellite dish setup" zPosition="-1" flags="wfNoBorder">
 		<widget name="Dishpixmap" pixmap="skin_default/icons/dish.png" position="0,0" size="130,160" alphatest="off" />
