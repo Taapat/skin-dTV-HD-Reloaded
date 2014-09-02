@@ -1842,15 +1842,15 @@ orgpos = self.instance.position()
 textsize = self["text"].getSize()
 
 # y size still must be fixed in font stuff...
-textsize = (textsize[0] + 80, textsize[1] + 80)
+textsize = (textsize[0] + 80, textsize[1] + 40)
 count = len(self.list)
-if count &gt; 10:
+if count > 10:
 	count = 10
 offset = 32 * count
 wsizex = textsize[0] + 80
-wsizey = textsize[1] + offset + 20
+wsizey = textsize[1] + offset
 
-if (720 &gt; wsizex):
+if (720 > wsizex):
 	wsizex = 720
 wsize = (wsizex, wsizey)
 
@@ -1867,7 +1867,7 @@ self["list"].instance.resize(eSize(*listsize))
 
 # center window
 newwidth = wsize[0]
-self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count &gt; 7 and 2 or 3)))
+self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/(count > 7 and 2 or 3)))
 		</applet>
 	</screen>
 	<screen name="MessageBox" position="center,center" size="800,10" title="Message">
