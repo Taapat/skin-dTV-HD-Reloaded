@@ -1563,7 +1563,7 @@
 		<widget name="scan_progress" position=" 91,240" size="560,20" pixmap="dTV-HD-Reloaded/progress_big.png" borderWidth="1" borderColor="uncccccc" />
 		<widget name="servicelist" position=" 91,270" size="560,275" selectionDisabled="1" />
 	</screen>
-	<screen name="Setup" position="center,74" size="742,572" title="Setup" backgroundColor="transparent2" flags="wfNoBorder">
+	<screen name="Setup" position="center,center" size="742,572" title="Setup" backgroundColor="transparent2" flags="wfNoBorder">
 		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on" />
 		<ePixmap position="131,11" size="480, 66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend" />
 		<widget source="Title" render="Label" position=" 21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1" />
@@ -1571,7 +1571,9 @@
 		<eLabel position=" 21,101" size="  2,400" backgroundColor="grey" zPosition="5" />
 		<eLabel position="719,101" size="  2,400" backgroundColor="grey" zPosition="5" />
 		<eLabel position=" 21,499" size="700,  2" backgroundColor="grey" zPosition="5" />
-		<widget name="config" position="26,106" size="690,390" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
+		<eLabel position=" 21,410" size="700,  2" backgroundColor="grey" zPosition="5" />
+		<widget name="config" position="26,106" size="690,300" itemHeight="30" scrollbarMode="showOnDemand" selectionPixmap="dTV-HD-Reloaded/menu/select1080_25.png" transparent="1" />
+		<widget name="description" position="30,422" size="695,65" font="Regular;20" valign="top" />
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="109,517" zPosition="1" size="250,38" />
 		<ePixmap pixmap="dTV-HD-Reloaded/button.png" position="379,517" zPosition="1" size="250,38" />
 		<widget source="key_red" render="Label" position="109,516" zPosition="2" size="250,38" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1" />
