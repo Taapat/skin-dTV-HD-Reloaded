@@ -504,6 +504,22 @@
 		<eLabel position=" 21,549" size="700,  2" backgroundColor="grey" zPosition="5" />
 		<widget name="AboutScrollLabel" font="Regular;22" position="40,110" size="670,430" zPosition="2" halign="center" />
 	</screen>
+	<screen name="HotkeySetup" position="center,center" size="742,572" backgroundColor="transparent2" flags="wfNoBorder">
+		<ePixmap pixmap="dTV-HD-Reloaded/menu/menuback.png" position="1,1" size="740,570" zPosition="-5" alphatest="on"/>
+		<ePixmap position="131,11" size="480,66" pixmap="dTV-HD-Reloaded/menu/db.png" alphatest="blend"/>
+		<eLabel text="Hotkey" position="21,66" size="700,32" font="Regular;25" halign="center" backgroundColor="black" transparent="1"/>
+		<eLabel position="21,99" size="700,2" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="21,101" size="2,400" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="380,101" size="2,400" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="719,101" size="2,400" backgroundColor="grey" zPosition="5"/>
+		<eLabel position="21,499" size="700,2" backgroundColor="grey" zPosition="5"/>
+		<widget name="list" position="40,110" size="330,375" scrollbarMode="showOnDemand"/>
+		<widget name="choosen" position="385,110" size="325,375" scrollbarMode="showOnDemand"/>
+		<ePixmap position="110,517" size="250,38" zPosition="1" pixmap="dTV-HD-Reloaded/button.png"/>
+		<ePixmap position="405,517" size="250,38" zPosition="1" pixmap="dTV-HD-Reloaded/button.png"/>
+		<widget name="key_red" position="110,516" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="red" backgroundColor="black" transparent="1"/>
+		<widget name="key_green" position="405,516" size="250,38" zPosition="2" font="Regular;24" halign="center" valign="center" foregroundColor="green" backgroundColor="black" transparent="1"/>
+	</screen>
 	<screen name="AdapterSetup" position="center,90" size="1100,570" title="Network setup">
 		<eLabel position="0,0" size="1100,2" backgroundColor="grey" />
 		<eLabel position="0,0" size="2,518" backgroundColor="grey" />
