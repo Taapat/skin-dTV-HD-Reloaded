@@ -9,23 +9,16 @@
 		<color name="background" value="#25000000" />
 		<color name="black" value="#00000000" />
 		<color name="blue" value="#006565ff" />
-		<color name="crypt_back" value="#00999999" />
-		<color name="crypt_ecm" value="#00389416" />
-		<color name="crypt_emm" value="#00c59233" />
 		<color name="dark" value="#00294a6b" />
 		<color name="darkgrey" value="#00666666" />
 		<color name="foreground" value="#00dddddd" />
 		<color name="green" value="#00389416" />
 		<color name="grey" value="#00999999" />
 		<color name="listbox" value="#000f56a4" />
-		<color name="rds_text_bg" value="#00003258" />
 		<color name="red" value="#00ff2525" />
-		<color name="rssviewtop" value="#00005050" />
 		<color name="transparent" value="#ffffffff" />
 		<color name="transparent2" value="#ff000000" />
 		<color name="transpBlack" value="#30000000" />
-		<color name="transpWhite" value="#77ffffff" />
-		<color name="transpyellow" value="#33bab329" />
 		<color name="un1357a3" value="#001357a3" />
 		<color name="un252b4247" value="#252b4247" />
 		<color name="un333333" value="#00333333" />
